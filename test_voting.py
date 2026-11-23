@@ -6,4 +6,4 @@ def test_eligible_person():
 
 
 def test_ineligible_person():
-    assert is_eligible(15)
+    assert not is_eligible(15)
